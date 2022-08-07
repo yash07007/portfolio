@@ -238,6 +238,23 @@ button {
     }
 }
 
+/* Overlay */
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 200;
+    background-color: transparent;
+    visibility: hidden;
+}
+
+.overlay.active {
+    visibility: visible;
+}
+
 /* Header */
 
 .header {
